@@ -23,7 +23,7 @@ export default function Contact() {
 
         <div className="mt-16 text-center space-y-6">
           <Calculator />
-          <a href="tel:+918240155560" className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-xl hover:opacity-90 transition inline-flex items-center gap-2">
+          <a href="tel:+919734540802" className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-xl hover:opacity-90 transition inline-flex items-center gap-2">
             Schedule Your Free Consultation
           </a>
         </div>

@@ -18,7 +18,7 @@ export default function Services() {
       icon: <Users className="w-6 h-6" />,
       title: "1-on-1 Tutoring",
       description: "Personalized attention and customized learning plans",
-      price: "3,000/Month",
+      price: "5,000/Month",
       features: [
         "Customized curriculum",
         "Flexible scheduling",

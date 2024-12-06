@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="relative max-w-6xl mx-auto px-4 py-24">
         <div className="flex flex-col md:flex-row items-center gap-16">
           <div className="flex-1 space-y-8 animate-fade-in">
-            <Badge>Aliah University Mathematics M.Sc. in Mathematics</Badge>
+            <Badge>Aliah University M.Sc. in Mathematics</Badge>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                 Transform Your
@@ -23,7 +23,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
-                onClick={() => (window.location.href = "tel:8240155560")}
+                onClick={() => (window.location.href = "tel:9734540802")}
                 className="group bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-8 py-4 rounded-xl hover:opacity-90 transition flex items-center gap-2"
               >
                 Book a Free Session
