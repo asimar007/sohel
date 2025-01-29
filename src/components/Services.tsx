@@ -71,11 +71,16 @@ export default function Services() {
               <p className="text-3xl font-bold text-indigo-600 mb-6">
                 {service.price}
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-4">
                 {service.features.map((feature, i) => (
-                  <li key={i} className="flex items-center text-gray-600">
-                    <span className="w-2 h-2 bg-indigo-600 rounded-full mr-3"></span>
-                    {feature}
+                  <li
+                    key={i}
+                    className="flex items-center text-gray-600 group/item hover:text-indigo-600 transition-colors duration-200"
+                  >
+                    <span className="w-2 h-2 bg-indigo-600 rounded-full mr-3 group-hover/item:scale-125 transition-transform"></span>
+                    <span className="group-hover/item:translate-x-1 transition-transform">
+                      {feature}
+                    </span>
                   </li>
                 ))}
               </ul>
